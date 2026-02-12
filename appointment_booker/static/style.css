@@ -1,0 +1,1161 @@
+/* Global styles */
+
+* {
+	margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;	
+}
+
+body {
+    font-family: arial;    
+}
+
+p {
+    color: #2D2D2D;
+    font-size: 1rem;
+    line-height: 1.5
+}
+
+h4 {
+    color: #1F3B97;
+    font-size: 1rem;
+    font-weight: bold;      
+}
+
+/* Header */
+
+.mobile-header {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-header header {
+    background-color: #1F3B97;
+    color: #FFFFFF;
+    padding: 16px 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mobile-header .title {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.mobile-header .title h1 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding: 0 0 8px 0;
+    text-align: left;
+}
+
+.mobile-header .title h2 {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.mobile-header .menu-closed {
+    display: block;
+    cursor: pointer;
+    background-color: #1F3B97;    
+}
+
+.mobile-header .menu-open {
+    display: none;   
+    cursor: pointer;
+    background-color: #1F3B97;    
+}
+
+.mobile-header .menu-closed i, .mobile-header .menu-open i {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.mobile-header .mobile-menu {
+    display: none;    
+    background-color: #E1E7F9;
+    width: 100%;
+    padding: 4px 0;
+}
+
+.mobile-header .mobile-menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mobile-header .mobile-menu ul li {      
+    padding: 0;
+    text-align: center;
+}
+
+.mobile-header .mobile-menu ul li a {
+    text-decoration: none;
+    background-color: #EEF2FF;  
+    color: #2D2D2D;
+    padding: 8px 0;
+    height: 100%;   
+    display: block;
+}
+
+.mobile-header .mobile-menu ul li a:hover {
+    background-color: #FFFFFF;  
+}
+
+.mobile-link-active {
+    /* background-color: #FFFFFF; */
+    background-color: lime;
+}
+
+.desktop-header {
+    display: none;    
+}
+
+.mobile-header .log-out {    
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Main */
+
+main {  
+    background-color: #FFFFFF;    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100vh;   
+    margin: 0;
+    padding: 24px 1rem 0 1rem;
+}
+
+/* Narrow introduction section */
+
+.introduction-narrow {
+    display: block;    
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.introduction-narrow .introduction-container {    
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.image-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.introduction-narrow .introduction-title h2 {
+    font-size: 1.75rem;
+    color: #1F3B97;
+    font-weight: bold;
+    text-align: center;
+}
+
+.introduction-narrow .introduction-buttons {    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+/* Introduction section buttons */
+
+.introduction-button-light {
+    border: 2px solid #1F3B97;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    color: #2D2D2D;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;    
+}
+
+.introduction-button-light:hover {    
+    background-color: #EEF2FF;
+}
+
+.introduction-button-dark {
+    background-color: #1F3B97;
+    border: 2px solid #1F3B97;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;    
+}
+
+.introduction-button-dark:hover {
+    background-color: #2C4CB6;  
+}
+
+/* Wide introduction section */
+
+.introduction-wide {
+    display: none;
+}
+
+/* Section */
+
+section {
+    background-color: #FFFFFF;    
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 8px;    
+    width: 100%;    
+}
+
+.section-container {    
+    width: 100%;    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;    
+}
+
+.section-container h2 {
+    color: #1F3B97;    
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;      
+}
+
+.section-container h3 {
+    font-size: 1.25rem;
+    color: #1F3B97;
+    font-weight: bold;
+    text-align: center;    
+}
+
+.booking-journey {    
+    display: flex;
+    flex-direction: column;
+    gap: 8px;    
+}
+
+.booking-journey a {
+    background-color: #EEF2FF;
+    text-decoration: none;
+    display: inline-block;
+    width: 3rem;   
+    padding: 4px 0;
+    border-radius: 8px;
+    text-align: center;  
+}
+
+.booking-journey a:hover {
+    background-color: #FFFFFF;
+}
+
+.booking-journey i {
+    color: #1F3B97;
+    font-size: 1.25rem;    
+}
+
+.success {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+ .circle {
+    background-color: #1F3B97;    
+    width: 32px;
+    height: 32px;    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle i {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+/* Small container */
+
+.small-container {
+    background-color: #EEF2FF;
+    border-radius: 8px;    
+    padding: 16px 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.small-container-column {    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;    
+}
+
+.small-container-column h3, .small-container-column h4 {
+    text-align: left;
+}
+
+.small-container-column form {
+    width: 100%;
+}
+
+.appointment {    
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;    
+}
+
+.date-time {    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;    
+}
+
+.date, .time {    
+    display: flex;
+    gap: 2.5rem;    
+}
+
+.word-and-image {    
+    display: flex;
+    gap: 1rem;
+}
+
+.word-and-image i {    
+    padding: 2px 0 0 0;
+    color: #1F3B97;
+}
+
+.button-container {    
+    width: 100%;    
+}
+
+.buttons {    
+    display: flex;
+    flex-direction: column;    
+    gap: 8px;     
+}
+
+.button-light {
+    border: 2px solid #1F3B97;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    color: #2D2D2D;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;    
+}
+
+.button-light:hover {    
+    background-color: #EEF2FF;
+}
+
+.button-dark {
+    background-color: #1F3B97;
+    border: 2px solid #1F3B97;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;    
+}
+
+.button-dark:hover{
+    background-color: #2C4CB6;  
+}
+
+.button-cancel {
+    border: 2px solid #F11A1A;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    color: #2D2D2D;
+    text-decoration: none;
+    text-align: center;    
+}
+
+.button-cancel:hover {
+    background-color: #FFEFEF;
+}
+
+.button-delete {
+    background-color: #F11A1A;
+    border: 2px solid #F11A1A;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-delete:hover {
+    background-color: #CD1818;
+}
+
+/* Message */
+
+.message-container {
+    background-color: #FFFFFF;
+    border-radius: 8px;    
+    padding: 16px 1rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.message-container .container {    
+    display: flex;
+    justify-content: space-between;    
+}
+
+.close-button-container {    
+    width: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.close-button {    
+    background-color: #EEF2FF;
+    padding: 4px 0.25rem;
+    border-radius: 4px;
+}
+
+.close-button:hover {
+    background-color: #E3E7F4;
+    cursor: pointer;    
+}
+
+.close-button i {
+    color: #2D2D2D;
+    font-size: 1rem;
+}
+
+.errorlist {
+    list-style-type: none;
+}
+
+/* Account */
+
+.account-container {
+    background-color: #EEF2FF;
+    border-radius: 8px;    
+    padding: 16px 1rem;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Forms */
+
+form {    
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: lime;
+}
+
+form .button-light {
+    width: 100%;
+}
+
+.form {
+    background-color: #EEF2FF;
+    padding: 16px 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.form input {
+    width: 100%;
+    padding: 8px 0.25rem;
+}
+
+.form div {
+    background-color: #EEF2FF;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form .button-dark {
+    display: block;    
+    width: 100%;
+}
+
+.password-link {
+    color: #1F3B97;
+    text-decoration-line: underline;
+    text-decoration-color: #1F3B97;
+    text-underline-offset: 6px;
+}
+
+.password-link:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 530px) {
+
+    /* Header */
+    
+    .mobile-header header {     
+        padding: 24px 1.5rem;  
+    }
+
+    /* Main */
+
+    main {        
+        padding: 32px 1.5rem 0 1.5rem;
+    }
+
+    /* Narrow introduction section */
+
+    
+    .image-container {
+        width: 80%;    
+    }
+
+    .booking-journey {    
+        gap: 4px;
+    }
+
+    /* Account */
+
+    .account-container .button-light, .account-container .button-dark, .account-container .button-delete {
+        width: 90%;
+    }
+
+    /* Small container */
+
+    .small-container {                 
+        padding: 24px 1.5rem;
+        width: 100%;
+    }
+
+    .appointment {        
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .date-time {
+    width: 60%;
+    }
+
+    .date, .time {    
+        width: 90%;   
+    }
+
+    .button-container, .buttons {        
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .buttons .button-light, .buttons .button-cancel, .buttons .button-dark {
+        padding: 8px 0;
+    }
+
+    /* Forms */    
+
+    .form {    
+        padding: 16px 2rem;           
+    }
+
+}
+
+@media screen and (min-width: 670px) {
+
+    /* Main */
+
+    main {        
+        padding: 40px 2rem 0 2rem;        
+    }   
+
+    .image-container {
+        width: 70%;    
+    }
+   
+    /* Section */
+
+    .booking-journey {    
+        gap: 2px;
+    }
+
+    /* Account */
+
+    .account-container {       
+        padding: 24px 1.5rem;          
+    }
+
+    .account-container .button-light, .account-container .button-dark, .account-container .button-delete {
+        width: 80%;
+    }
+
+    /* Small container */
+
+    .date-time {   
+        gap: 24px;     
+    }
+    
+    .small-container-column .button-light {
+        width: 70%;
+    }
+
+    .small-container-column form {
+        width: 70%;
+    }
+
+    /* Forms */
+
+    .form {    
+        padding: 16px 2.5rem;   
+    }
+}
+    
+@media screen and (min-width: 780px) {
+
+    /* Main */
+
+    main {        
+        background-color: #EEF2FF;
+        padding: 48px 2.5rem 0 2.5rem;          
+    }
+
+    /* Narrow introduction section */
+    
+    .introduction-narrow {
+        display: none;
+    }
+
+    /* Wide introduction section */
+
+    .introduction-wide {
+        background-color: #FFFFFF;
+        display: block;
+        padding: 32px 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .introduction-wide .introduction-container {        
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .introduction-columns {
+        width: 100%;
+        padding: 0;
+        margin: 0;        
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-column {       
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .introduction-message {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+      .introduction-message .introduction-title h2 {
+        font-size: 2rem;
+        color: #1F3B97;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .introduction-message p {        
+        width: 90%;
+    }    
+
+    .introduction-wide .introduction-buttons {        
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 90%;
+    }    
+
+    .right-column {        
+        width: 40%;        
+    }
+
+    .right-column img {
+        width: 100%;
+        height: auto;
+    } 
+
+    /* Section */
+
+    section {              
+        padding: 28px 0;
+        margin: 0 auto;                
+    }  
+    
+    .section-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Small container */
+    
+    .small-container-column .button-light {
+        width: 60%;
+    }
+
+    .small-container-column form {
+        width: 60%;
+    }
+     
+    /* Message */
+
+    .close-button-container {    
+        width: 2.5rem;    
+    }
+
+    /* Forms */
+
+    .form {
+        padding: 16px 3rem;    
+    }
+   
+}
+
+@media screen and (min-width: 820px) {
+
+    /* Main */
+
+    main {        
+        padding: 56px 3rem 0 3rem; 
+    }
+
+    /* Wide introduction section */
+
+    .left-column, .right-column {
+        width: 50%;
+    }
+
+    .introduction-message .introduction-title h2 {
+        font-size: 1.75rem;        
+    }
+
+    .introduction-message p {        
+        width: 85%;
+    }
+    
+
+    .introduction-wide .introduction-buttons {       
+        width: 85%;
+    }    
+    
+    /* Section */    
+
+    .section-container {
+        width: 80%;
+    }
+
+    /* Forms */
+
+    .form {
+        padding: 16px 3.5rem;    
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+
+    /* Main */
+
+    main {        
+        padding: 64px 3.5rem 0 3.5rem;
+    }
+
+    /* Wide introduction section */   
+
+     .introduction-message .introduction-title h2 {
+        font-size: 2rem;        
+    }
+
+     /* Forms */
+
+    .form {
+        padding: 16px 4rem;    
+    }
+
+}
+
+@media screen and (min-width: 970px) {
+
+    /* Header */
+
+    .mobile-header {
+        display: none;
+    }
+
+    .desktop-header {
+        display: block;
+        background-color: #1F3B97;
+        color: #FFFFFF;
+        padding: 24px 2rem;
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+    .desktop-header .title {
+        text-decoration: none;               
+        margin: 0;
+        text-align: left;
+    }
+
+    .desktop-header .title h1 {
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        padding: 0 0 8px 0;
+    }
+
+    .desktop-header .title h2 {
+        color: #FFFFFF;
+        font-size: 1.25rem;
+        text-align: left;
+    }   
+    
+    .desktop-header nav ul {        
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        align-items: center;        
+        list-style-type: none;
+    }
+
+     .desktop-header nav ul li {            
+        padding: 0;              
+    }
+
+    .link:hover {
+        text-decoration-line: underline;
+        text-decoration-color: #FFFFFF;
+        text-underline-offset: 8px;
+    }
+    
+    .desktop-header nav ul li a {
+        color: #FFFFFF;
+        text-decoration: none;        
+    } 
+
+    .desktop-header .active {
+        text-decoration-line: underline;
+        text-decoration-color: #FFFFFF;
+        text-underline-offset: 8px;
+    }
+
+    .desktop-header nav ul  .header-button-light {
+        border: 2px solid #FFFFFF;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        display: block;    
+        padding: 12px 2rem;
+        color: #2D2D2D;
+        text-decoration: none;
+        text-align: center;   
+}
+
+    .desktop-header nav ul .header-button-light:hover {    
+        background-color: #EEF2FF; 
+    }
+    
+    .desktop-header nav ul  .header-button-dark {
+        border: 2px solid #FFFFFF;
+        background-color: #1F3B97;
+        border-radius: 8px;
+        display: block;    
+        padding: 12px 2rem;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-align: center;    
+    }
+
+    .desktop-header nav ul .header-button-dark:hover {    
+        background-color: #2C4CB6;
+    }   
+
+    .desktop-header .log-out-button {        
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        border: 2px solid #FFFFFF;
+        background-color: #1F3B97;
+        border-radius: 8px;            
+        padding: 12px 1rem;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-align: center;      
+    }
+
+    .desktop-header .log-out-button:hover {
+        background-color: #2C4CB6;
+    }
+
+    .desktop-header .log-out {        
+        display: flex;
+        padding: 0;
+        margin: 0;
+        gap: 0.75rem;
+    }
+
+    .desktop-header .log-out a {       
+        text-decoration: none;
+    }
+
+    /* Main */
+
+    main {        
+        padding: 72px 4rem 0 4rem;
+    }
+    
+    /* Section */
+
+    section {        
+        padding: 32px 0;
+    }
+        
+    /* Small container */
+    
+    .small-container-column .button-light {
+        width: 50%;
+    }
+
+    .small-container-column form {
+        width: 50%;
+    }
+
+    /* Account container */
+
+    .account-container .button-light, .account-container .button-dark, .account-container .button-delete {
+        width: 70%;
+    }
+    
+     /* Message */
+
+    .close-button-container {    
+        width: 2rem;    
+    }
+
+    /* Forms */
+
+    .form {
+        padding: 16px 4.5rem;    
+    }
+  
+}
+
+@media screen and (min-width: 1030px) { 
+
+    /* Header */
+    
+    .desktop-header nav ul {      
+        gap: 1.5rem;        
+    }
+
+    /* Main */
+
+    main {        
+        padding: 72px 4.5rem 0 4.5rem;
+    }
+  
+    /* Account container */
+    
+    .account-container .button-light, .account-container .button-dark, .account-container .button-delete {
+        width: 60%;
+    }
+
+
+    /* Forms */
+
+    .form {
+        padding: 16px 5rem;    
+    }
+}
+
+@media screen and (min-width: 1230px) {
+
+    /* Header */
+    
+    .desktop-header nav ul {      
+        gap: 2rem;        
+    }
+    
+    /* Main */
+
+    main {        
+        padding: 72px 5rem 0 5rem;
+    }
+
+    /* Wide introduction section */
+
+    .left-column {     
+        gap: 40px;
+    }    
+
+    .introduction-message .introduction-title h2 {
+        font-size: 2.25rem;        
+    }
+}
+
+@media screen and (min-width: 1300px) {
+
+    /* Header */
+    
+    .desktop-header nav ul {      
+        gap: 2.5rem;        
+    }
+
+    /* Main */
+
+    main {        
+        padding: 72px 5.5rem 0 5.5rem;
+    }
+
+     /* Account container */
+    
+    .account-container .button-light, .account-container .button-dark, .account-container .button-delete {
+        width: 50%;
+    }
+    
+    /* Small container */
+
+    .buttons {
+        width: 40%;
+    }
+    
+     /* Forms */
+
+    .form {
+        padding: 16px 6rem;    
+    }
+  
+}
+
+@media screen and (min-width: 1400px) {
+    
+    /* Header */
+    
+    .desktop-header nav ul {      
+        gap: 3rem;        
+    }
+
+      /* Main */
+
+    main {        
+        padding: 72px 7rem 0 7rem;
+    }
+
+    /* Message */
+
+    .message-container {
+        max-width: 1000px;
+    }
+
+    /* Wide introduction section */
+
+    .introduction-wide {       
+        max-width: 1000px;
+    }    
+  
+    /* Section */
+
+    section {       
+        max-width: 1000px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        <!-- Font Awesome script -->
+        <script src="https://kit.fontawesome.com/758be0af3f.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!-- Mobile header -->
+        <section class="mobile-header">
+            <header>
+                <a href="{% url 'home' %}" class="title">
+                    <h1>Dr Ferran's Medical Centre</h1>
+                    <h2>Appointment Booker</h2>
+                </a>
+                <button class="menu-closed" onclick="displayMenu()">
+                    <i class="fa-solid fa-bars"></i>                
+                </button>
+                <button class="menu-open" onclick="closeMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>                    
+            </header>
+            <!-- Mobile menu -->
+            <nav class="mobile-menu">
+                <ul>
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'account' %}">Your account</a></li>
+                        <li><a href="{% url 'booked_appointments' %}">Your appointments</a></li>
+                        <li><a href="{% url 'available_appointments' %}">Book appointment</a></li>
+                        <li>                            
+                            <a href="{% url 'patient_logout' %}">
+                                <div class="log-out">
+                                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    <p>Sign out</p>
+                                </div>                               
+                            </a>                            
+                        </li>                       
+                    {% else %}
+                        <li><a href="{% url 'register' %}">Sign up</a></li>
+                        <li><a href="{% url 'patient_login' %}">Sign in</a></li>
+                    {% endif %}
+                </ul>     
+            </nav>
+        </section>
+
+        <!-- Desktop header -->
+
+        <header class="desktop-header">
+            <a href="{% url 'home' %}" class="title">
+                <h1>Dr Ferran's Medical Centre</h1>
+                <h2>Appointment Booker</h2>
+            </a>          
+            <nav>              
+                <ul>
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'account' %}" class="{% if request.path == '/account' %}active{% endif %} link">Your account</a></li>
+                        <li><a href="{% url 'booked_appointments' %}" class="{% if request.path == '/booked_appointments' %}active{% endif %} link">Your appointments</a></li>                                   
+                        <li>
+                            <div class="log-out-button">
+                                <div class="log-out">
+                                    <i class="fa-solid fa-arrow-right-from-bracket"></i><a href="{% url 'patient_logout' %}">Sign out</a>
+                                </div>
+                                
+                            </div>                                                                              
+                        </li>
+                        <li><a href="{% url 'available_appointments' %}" class="header-button-light">Book appointment</a></li>
+                    {% else %}                    
+                        <li><a href="{% url 'register' %}" class="header-button-dark">Sign up</a></li>
+                        <li><a href="{% url 'patient_login' %}" class="header-button-light">Sign in</a></li>
+                    {% endif %}                    
+                </ul>                           
+            </nav>
+        </header>    
+    
+        <main> 
+            {% if messages %}
+                {% for message in messages %}                   
+                    <div class="message-container" id="message">
+                        <div class="container">
+                            <div>
+                                <p>{{ message }}</p>
+                            </div>                            
+                            <div class="close-button-container" onclick="closeMessage()">
+                                <button class="close-button"><i class="fa-solid fa-x"></i></button>
+                            </div>
+                        </div>                                                 
+                    </div>                  
+                                    
+                {% endfor %}
+            {% endif %}           
+            {% block content %}        
+        
+            {% endblock %}
+        </main>
+        <script src="{% static 'script.js' %}"></script>
+    </body>
+    
+</html>

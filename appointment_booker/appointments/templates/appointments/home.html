@@ -1,0 +1,59 @@
+{% extends 'appointments/base.html' %}
+{% load static %}
+{% block title %}
+    Home
+{% endblock %}
+{% block content %}
+    <section class="introduction-narrow">
+        <section class="introduction-container">                       
+            <div class="image-container">
+                <img src="{% static 'doctor.jpg' %}" alt="Picture of Dr Ferran.">
+            </div>
+            <div class="introduction-title">
+                <h2>Welcome to Dr Ferran's</h2>
+                <h2>Appointment Booker</h2>
+            </div>
+            {% if user.is_authenticated %}                   
+                <div class="introduction-buttons">
+                    <a href="{% url 'available_appointments' %}" class="introduction-button-dark">Book an appointment</a>
+                    <a href="{% url 'booked_appointments' %}" class="introduction-button-light">Your upcoming appointments</a>
+                </div>
+            {% else %}
+                <div class="introduction-buttons">
+                    <a href="{% url 'patient_login' %}" class="introduction-button-dark">Sign in to your account</a>
+                    <a href="{% url 'register' %}" class="introduction-button-light">Sign up for an account</a>
+                </div>
+            {% endif %}
+        </section>               
+    </section>
+            
+            <section class="introduction-wide">
+                <section class="introduction-container">                                
+                    <div class="introduction-columns">
+                        <div class="left-column">
+                            <div class="introduction-message">
+                                <div class="introduction-title">
+                                    <h2>Welcome to Dr Ferran's</h2>
+                                    <h2>Appointment Booker</h2>
+                                </div>
+                                <p>Dr Ferran is a general medicine doctor who graduated with a medicine degree in 2010. He welcomes existing patients and new patients.</p>
+                            </div>
+                            {% if user.is_authenticated %}                   
+                                <div class="introduction-buttons">
+                                    <a href="{% url 'available_appointments' %}" class="introduction-button-dark">Book an appointment</a>
+                                    <a href="{% url 'booked_appointments' %}" class="introduction-button-light">Your upcoming appointments</a>
+                                </div>
+                            {% else %}
+                                <div class="introduction-buttons">
+                                    <a href="{% url 'patient_login' %}" class="introduction-button-dark">Sign in to your account</a>
+                                    <a href="{% url 'register' %}" class="introduction-button-light">Sign up for an account</a>
+                                </div>
+                            {% endif %}                        
+                        </div>
+                        <div class="right-column">
+                            <img src="{% static 'doctor.jpg' %}" alt="Picture of Dr Ferran.">                           
+                        </div>
+                    </div>
+                </section>
+            </section>             
+{% endblock %}

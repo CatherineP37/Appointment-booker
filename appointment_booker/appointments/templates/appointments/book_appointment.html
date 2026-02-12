@@ -1,0 +1,42 @@
+{% extends 'appointments/base.html' %}
+{% load static %}
+{% block title %}
+    Book appointment
+{% endblock %}
+{% block content %}   
+    <section>
+        <section class="section-container">
+            <div class="booking-journey">
+                <a href="{% url 'available_appointments' %}"><i class="fa-solid fa-arrow-left"></i></a>                        
+                <h3>You have selected the following appointment</h3>
+            </div>              
+                <div class="small-container">
+                    <div class="appointment">
+                        <div class="date-time">
+                            <div class="date">
+                                <div class="word-and-image">
+                                    <h4>Date</h4>
+                                    <i class="fa-regular fa-calendar"></i>
+                                </div>
+                                <p>{{ appointment.date }}</p>
+                            </div>
+                            <div class="time">
+                                <div class="word-and-image">
+                                    <h4>Time</h4>
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                                <p>{{ appointment.time }}</p>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <form method="POST">
+                                {% csrf_token %}
+                                <button type="submit" class="button-light">Book appointment</button> 
+                            </form>   
+                            <a href="{% url 'available_appointments' %}" class="button-cancel">Cancel</a>
+                        </div>
+                       
+                    </div>                           
+                </div>                                   
+        </section>        
+{% endblock %}

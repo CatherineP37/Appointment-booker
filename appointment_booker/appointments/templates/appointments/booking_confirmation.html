@@ -1,0 +1,38 @@
+{% extends 'appointments/base.html' %}
+{% load static %}
+{% block title %}
+    Booking confirmation
+{% endblock %}
+{% block content %}
+    <section>
+        <section class="section-container">
+            <div class="success">
+                <div class="circle">
+                    <i class="fa-solid fa-check"></i>                    
+                </div>
+                <h2>Booking successful! thanks</h2>                
+            </div>
+            <h3>You have booked the following appointment:</h3>                
+                     <div class="small-container">
+                        <div class="appointment">
+                              <div class="date-time">
+                                <div class="date">
+                                    <div class="word-and-image">
+                                        <h4>Date</h4>
+                                        <i class="fa-regular fa-calendar"></i>
+                                    </div>
+                                    <p>{{ appointment.date }}</p>
+                                </div>
+                                <div class="time">
+                                    <div class="word-and-image">
+                                        <h4>Time</h4>
+                                        <i class="fa-regular fa-clock"></i>
+                                    </div>
+                                    <p>{{ appointment.time }}</p>
+                                </div>
+                            </div>                            
+                        </div>                           
+                    </div>
+            </section>                   
+        </section>        
+{% endblock %}

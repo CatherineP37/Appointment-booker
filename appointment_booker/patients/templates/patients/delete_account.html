@@ -1,0 +1,22 @@
+{% extends 'appointments/base.html'%}
+{% load static %}
+{% block title %}
+    Delete account
+{% endblock %}
+{% block content %}
+    <section>
+        <section class="section-container">
+            <h2>Delete account</h2>                                      
+                <div class="small-container">
+                    <div class="small-container-column">
+                        <h4>Are you sure you want to delete your account?</h4>                                                                
+                        <a href="{% url 'account' %}" class="button-light">No, don't delete account</a>                                                     
+                        <form method="POST" action="">
+                            {% csrf_token %}
+                            <input type="submit" value="Delete account" class="button-delete">
+                        </form>
+                    </div>                                
+                </div>                                                         
+            </section>                                              
+        </section>      
+{% endblock %}

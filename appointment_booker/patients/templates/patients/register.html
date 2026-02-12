@@ -1,0 +1,48 @@
+{% extends 'appointments/base.html'%}
+{% load static %}
+{% block title %}
+    Register
+{% endblock %}
+{% block content %}
+
+    <section>
+        <section class="section-container">
+            <h2>Sign up for an account</h2>
+            <p>With an account you can book an appointment and view your upcoming appointments.</p>
+            <form method="POST" action="" class="form">
+                {% csrf_token %}
+                <div>
+                    <h4>{{ form.username.label }} *</h4>
+                    {{ form.username }}
+                </div>
+                <div>
+                    <h4>{{ form.first_name.label }} *</h4>
+                    {{ form.first_name }}
+                </div>
+                <div>
+                    <h4>{{ form.last_name.label }} *</h4>
+                    {{ form.last_name }}
+                </div>
+                <div>
+                    <h4>{{ form.email.label }} *</h4>
+                    {{ form.email }}
+                </div>
+                <div>
+                    <h4>{{ form.password1.label }} *</h4>
+                    {{ form.password1 }}
+                </div>
+                <div>
+                    <h4>{{ form.password2.label }} *</h4>
+                    {{ form.password2 }}
+                </div>               
+                <button type="submit" name="register" class="button-dark">Sign up for an account</button>
+            </form>              
+
+        </section>
+                                            
+    </section>        
+        
+            
+    
+       
+{% endblock %}

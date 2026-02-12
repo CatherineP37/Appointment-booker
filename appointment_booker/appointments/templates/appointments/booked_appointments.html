@@ -1,0 +1,48 @@
+{% extends 'appointments/base.html' %}
+{% load static %}
+{% block title %}
+    Your appointments
+{% endblock %}
+{% block content %}
+    <section>
+        <section class="section-container">
+            <h2>Your appointments</h2>           
+            {% if patient_appointments %}
+                {% for appointment in patient_appointments %}              
+                    <div class="small-container">
+                        <div class="appointment">
+                            <div class="date-time">
+                                <div class="date">
+                                    <div class="word-and-image">
+                                        <h4>Date</h4>
+                                        <i class="fa-regular fa-calendar"></i>
+                                    </div>
+                                    <p>{{ appointment.appointment.date|date:"d.m.Y" }}</p>
+                                </div>
+                                <div class="time">
+                                    <div class="word-and-image">
+                                        <h4>Time</h4>
+                                        <i class="fa-regular fa-clock"></i>
+                                    </div>
+                                    <p>{{ appointment.appointment.time }}</p>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <a href="{% url 'cancel_appointment' appointment.id %}" class="button-cancel">Cancel appointment</a>
+                            </div>
+                        </div>                           
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="small-container">
+                    <div class="small-container-column">
+                        <p>Sorry, you don't have any booked appointments at the moment.</p>                            
+                        <a href="{% url 'available_appointments' %}" class="button-light">Book appointment</a>                               
+                    </div>                                            
+                </div>  
+            {% endif %}                                  
+
+        </section>            
+                           
+    </section> 
+{% endblock %}

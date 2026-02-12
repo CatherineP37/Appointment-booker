@@ -1,0 +1,37 @@
+{% extends 'appointments/base.html'%}
+{% load static %}
+{% block title %}
+    Your account
+{% endblock %}
+{% block content %}
+    <section>
+        <section class="section-container">           
+            <h2>Your account details</h2>                
+                <section class="account-container">
+                    <div class="account-section">
+                        <h4>Username</h4>
+                        <p>{{ patient.username }}</p>
+                    </div>
+                    <div class="account-section">
+                        <h4>First name</h4>
+                        <p>{{ patient.first_name }}</p>
+                    </div>
+                    <div class="account-section">
+                        <h4>Last name</h4>
+                        <p>{{ patient.last_name }}</p>
+                    </div>
+                    <div class="account-section">
+                        <h4>Email</h4>
+                        <p>{{ patient.email }}</p>
+                    </div>                    
+                        <a href="{% url 'edit_account' %}" class="button-light">Edit your account details</a>
+                        <a href="{% url 'edit_password' %}" class="button-dark">Change your password</a>                         
+                    </section>    
+                                        
+                <section class="account-container">
+                    <a href="{% url 'delete_account' %}" class="button-delete">Delete your account</a>
+                </section>
+            </section>                          
+        </section>      
+
+{% endblock %}
