@@ -570,6 +570,10 @@ form .button-light {
 
     /* Narrow introduction section */
 
+      .introduction-narrow .introduction-container {   
+        gap: 24px;
+    }
+
     .introduction-narrow .introduction-title {
         width: 90%;
     }
@@ -579,7 +583,7 @@ form .button-light {
 }
 
     .introduction-narrow .introduction-buttons {  
-        width: 90%;
+        width: 80%;
     }
     
     .image-container {
@@ -650,12 +654,16 @@ form .button-light {
     /* Narrow introduction section */ 
     
     .introduction-narrow .introduction-container {   
-        gap: 24px;
+        gap: 32px;
     }
 
     .introduction-narrow .introduction-title h2 {
         font-size: 2.5rem;        
     }
+
+     .introduction-narrow .introduction-buttons {       
+        width: 75%;
+    }    
    
     /* Section */
 
@@ -705,16 +713,13 @@ form .button-light {
      /* Narrow introduction section */
 
       .introduction-narrow .introduction-container {   
-        gap: 32px;
+        gap: 40px;
     }
 
      .introduction-narrow .introduction-title h2 {
         font-size: 3rem;        
     }
-
-    .introduction-narrow .introduction-buttons {       
-        width: 70%;
-    }    
+   
 
     /* Section */
 
@@ -763,7 +768,7 @@ form .button-light {
     /* Introduction narrow */
 
        .introduction-narrow .introduction-container {   
-        gap: 40px;
+        gap: 48px;
     }
 
     /* Section */    
@@ -787,13 +792,7 @@ form .button-light {
     main {        
         padding: 64px 5rem 0 5rem;        
     } 
-
-       /* Introduction narrow */
-
-       .introduction-narrow .introduction-container {   
-        gap: 48px;
-    }
-  
+   
      /* Forms */
 
     .form {
