@@ -1,6 +1,6 @@
 # Appointment-booker
 This is a medical appointment booking project built with Django.
 
-![Prototype](static/group.webp)
+![Prototype](appointment_booker/static/group.webp)
 
 ## Table of contents
