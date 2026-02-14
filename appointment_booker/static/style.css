@@ -62,17 +62,20 @@ h4 {
 .mobile-header .menu-closed {
     display: block;
     cursor: pointer;
-    background-color: #1F3B97;    
+    display: block;
+    margin: 0 0 24px 0;
+    background-color: #1F3B97;      
 }
 
 .mobile-header .menu-open {
     display: none;   
     cursor: pointer;
+    margin: 0 0 24px 0;
     background-color: #1F3B97;    
 }
 
 .mobile-header .menu-closed i, .mobile-header .menu-open i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #FFFFFF;
 }
 
@@ -109,8 +112,7 @@ h4 {
 }
 
 .mobile-link-active {
-    /* background-color: #FFFFFF; */
-    background-color: lime;
+    background-color: #FFFFFF;    
 }
 
 .desktop-header {
@@ -166,6 +168,11 @@ main {
     height: auto;
 }
 
+.introduction-narrow .introduction-title {    
+    margin: 0 auto;
+    width: 100%;
+}
+
 .introduction-narrow .introduction-title h2 {
     font-size: 1.75rem;
     color: #1F3B97;
@@ -178,6 +185,7 @@ main {
     flex-direction: column;
     gap: 16px;
     width: 100%;
+    margin: 0 auto; 
 }
 
 /* Introduction section buttons */
@@ -557,11 +565,22 @@ form .button-light {
     /* Main */
 
     main {        
-        padding: 32px 1.5rem 0 1.5rem;
+        padding: 32px 2rem 0 2rem;
     }
 
     /* Narrow introduction section */
 
+    .introduction-narrow .introduction-title {
+        width: 90%;
+    }
+
+    .introduction-narrow .introduction-title h2 {
+        font-size: 2rem;    
+}
+
+    .introduction-narrow .introduction-buttons {  
+        width: 90%;
+    }
     
     .image-container {
         width: 80%;    
@@ -621,11 +640,21 @@ form .button-light {
     /* Main */
 
     main {        
-        padding: 40px 2rem 0 2rem;        
+        padding: 40px 4rem 0 4rem;        
     }   
 
     .image-container {
         width: 70%;    
+    }
+
+    /* Narrow introduction section */ 
+    
+    .introduction-narrow .introduction-container {   
+        gap: 24px;
+    }
+
+    .introduction-narrow .introduction-title h2 {
+        font-size: 2.5rem;        
     }
    
     /* Section */
@@ -661,7 +690,7 @@ form .button-light {
     /* Forms */
 
     .form {    
-        padding: 16px 2.5rem;   
+        padding: 16px 2.75rem;   
     }
 }
     
@@ -670,82 +699,22 @@ form .button-light {
     /* Main */
 
     main {        
-        background-color: #EEF2FF;
-        padding: 48px 2.5rem 0 2.5rem;          
+        padding: 48px 4.25rem 0 4.25rem;          
     }
 
-    /* Narrow introduction section */
-    
-    .introduction-narrow {
-        display: none;
-    }
+     /* Narrow introduction section */
 
-    /* Wide introduction section */
-
-    .introduction-wide {
-        background-color: #FFFFFF;
-        display: block;
-        padding: 32px 0;
-        margin: 0 auto;
-        width: 100%;
-    }
-
-    .introduction-wide .introduction-container {        
-        width: 90%;
-        padding: 0;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-
-    .introduction-columns {
-        width: 100%;
-        padding: 0;
-        margin: 0;        
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .left-column {       
-        width: 60%;
-        display: flex;
-        flex-direction: column;
+      .introduction-narrow .introduction-container {   
         gap: 32px;
     }
 
-    .introduction-message {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
+     .introduction-narrow .introduction-title h2 {
+        font-size: 3rem;        
     }
 
-      .introduction-message .introduction-title h2 {
-        font-size: 2rem;
-        color: #1F3B97;
-        font-weight: bold;
-        text-align: left;
-    }
-
-    .introduction-message p {        
-        width: 90%;
+    .introduction-narrow .introduction-buttons {       
+        width: 70%;
     }    
-
-    .introduction-wide .introduction-buttons {        
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        width: 90%;
-    }    
-
-    .right-column {        
-        width: 40%;        
-    }
-
-    .right-column img {
-        width: 100%;
-        height: auto;
-    } 
 
     /* Section */
 
@@ -788,28 +757,15 @@ form .button-light {
     /* Main */
 
     main {        
-        padding: 56px 3rem 0 3rem; 
+        padding: 56px 4.5rem 0 4.5rem;        
     }
 
-    /* Wide introduction section */
+    /* Introduction narrow */
 
-    .left-column, .right-column {
-        width: 50%;
+       .introduction-narrow .introduction-container {   
+        gap: 40px;
     }
 
-    .introduction-message .introduction-title h2 {
-        font-size: 1.75rem;        
-    }
-
-    .introduction-message p {        
-        width: 85%;
-    }
-    
-
-    .introduction-wide .introduction-buttons {       
-        width: 85%;
-    }    
-    
     /* Section */    
 
     .section-container {
@@ -829,15 +785,15 @@ form .button-light {
     /* Main */
 
     main {        
-        padding: 64px 3.5rem 0 3.5rem;
+        padding: 64px 5rem 0 5rem;        
+    } 
+
+       /* Introduction narrow */
+
+       .introduction-narrow .introduction-container {   
+        gap: 48px;
     }
-
-    /* Wide introduction section */   
-
-     .introduction-message .introduction-title h2 {
-        font-size: 2rem;        
-    }
-
+  
      /* Forms */
 
     .form {
@@ -972,8 +928,82 @@ form .button-light {
     /* Main */
 
     main {        
-        padding: 72px 4rem 0 4rem;
+        padding: 72px 3rem 0 3rem;
+        background-color: #EEF2FF;
     }
+
+    /* Narrow introduction section */
+    
+    .introduction-narrow {
+        display: none;
+    }
+
+    /* Wide introduction section */
+
+    .introduction-wide {
+        background-color: #FFFFFF;
+        display: block;
+        padding: 32px 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .introduction-wide .introduction-container {        
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .introduction-columns {
+        width: 100%;
+        padding: 0;
+        margin: 0;        
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-column {       
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .introduction-message {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+      .introduction-message .introduction-title h2 {
+        font-size: 2rem;
+        color: #1F3B97;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .introduction-message p {        
+        width: 85%;
+    }    
+
+    .introduction-wide .introduction-buttons {        
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 85%;
+    }    
+
+    .right-column {        
+        width: 50%;        
+    }
+
+    .right-column img {
+        width: 100%;
+        height: auto;
+    }    
     
     /* Section */
 
