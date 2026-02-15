@@ -1,5 +1,5 @@
 # Appointment-booker
-This is a medical appointment booking project built with Django.
+This is a medical appointment booking project built with HTML, CSS, JavaScript, Python and Django.
 
 ![Prototype](appointment_booker/static/group.webp)
 
