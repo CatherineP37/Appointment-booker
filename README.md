@@ -42,6 +42,12 @@ This is a medical appointment booking project built with Django.
 
 ## Credits
 
+Font Awesome
+
+Dennis Ivy
+
+Codemy.com
+
 
 
 
