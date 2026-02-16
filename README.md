@@ -93,7 +93,7 @@ Epic - managing my appointments
 
 ## Sitemap
 
-![Sitemap](appointment_booker/static/map.png)
+![Sitemap](appointment_booker/static/map.webp)
 
 ## Database schema
 
