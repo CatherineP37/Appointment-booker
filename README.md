@@ -25,6 +25,23 @@ The app provides authentication, accounts and role based permissions. Patients c
 
 ## Scope
 
+### Accounts and authentication
+
+- Ability for patient to sign up for an account
+- Ability for patient to sign in to account
+- Ability for patient to recover account if they forget their password
+- Ability for patient to sign out of account
+- Ability for patient to edit account details
+- Ability for patient to edit password
+- Ability to delete account
+
+### Appointments
+
+- Ability for patient to view available appointments
+- Ability for patient to book an appointment
+- Ability for patient to cancel an appointment
+- Ability for patient to view upcoming appointments that they've booked  
+
 ## User research
 
 ## User stories
