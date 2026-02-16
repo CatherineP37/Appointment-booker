@@ -97,7 +97,13 @@ Epic - managing my appointments
 
 ## Database schema
 
+![database schema](appointment_booker/static/database.webp)
+
 ## Wireframes
+
+These are some of the wireframes made for the project
+
+![wireframes](appointment_booker/static/wireframes.webp)
 
 ## Features
 
