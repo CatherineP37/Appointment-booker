@@ -44,7 +44,52 @@ The app provides authentication, accounts and role based permissions. Patients c
 
 ## User research
 
+### Who are the users?
+
+- Patients who are interested in booking an appointment at the medical centre.
+
+### Purpose of research
+
+The purpose of the research was to understand why users use medical appointment booking apps and what they want to achieve while using these types of app and to understand their pain points when using these type of apps. It was also important to understand what kind of tasks patients carry out while using medical appointment booking apps.
+
+### User research methods
+
+For the qualitative research, I interviewed people who had experience with booking medical appointments online and for the quantitative research, I carried out a survey to find out about what users expect from a medical appointment booking website.
+
+### Key insights from the user research
+
+- Patients want to be able to set up an account
+- Patients want to sign in and out of their account easily
+- Patients want to be able to book an appointment easily
+- Patients want to be able to cancel their booking
+- Patients want to avoid double bookings
+- Patients want to be able to edit their account
+- Patients want to be able to edit their password
+- Patients want to be able to delete their account
+- Patients want to be able sign in to their account even if they forget their password
+
 ## User stories
+
+Epic - patient account
+
+- As a patient I want to set up an account so that I can easily book appointments online
+- As a patient I want to be able to sign in and out of my account easily
+- As a patient I want to be able to edit my account details 
+- As a patient I want to be able to edit my password
+- As a patient I want to be able to delete my account
+- As a patient I want to be able to sign in even if I forget my password  
+  
+Epic - booking an appointment online
+
+- As a patient I want to book an appointment easily online
+- As a patient I want to see what appointments are available
+- As a patient I don't want to book an appointment that someone else has booked
+
+Epic - managing my appointments
+
+- As a patient I want the option to see the appointments that I've booked
+- As a patient I want the option of updating my booking
+- As a patient I want the option of cancelling my booking
 
 ## Sitemap
 
