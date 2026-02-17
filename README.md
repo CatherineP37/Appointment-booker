@@ -107,6 +107,26 @@ These are some of the wireframes made for the project
 
 ## Features
 
+### Authentication and accounts
+
+- Registration form for the patient to set up an account
+- Sign in form
+- Sign out functionality
+- Ability for the patient to view their account details
+- Ability for the patient to edit their account details
+- Ability for the patient to edit their password while signed in
+- Ability for the patient to sign in even if they forget their password
+- Ability for the patient to delete their account
+
+### Appointment booking process
+
+- Ability for the patient to view available appointments
+- Ability for the patient to choose an available appointment from a list of available appointments
+- Ability for the patient to cancel the booking process
+- The patient gets a booking confirmation once they have booked an appointment
+- Ability for the patient to view their upcoming appointments
+- Ability for the patient to cancel an appointment
+  
 ## Testing
 
 ## Build
