@@ -145,11 +145,11 @@ These are some of the wireframes made for the project
 
  #### Desktop header (signed out)
  
-| FEATURE                                   | PASS OR FAIL  |
-|---------                                  |---------------|
-| The signed out version of the desktop header is displaying correctly. | PASS          | 
-| The header buttons work.              | PASS          | 
-| The header button links work.                     | PASS          |
+| FEATURE                                                              | PASS OR FAIL  |
+|---------                                                             |---------------|
+| The signed out version of the desktop header is displaying correctly.| PASS          | 
+| The header buttons work.                                             | PASS          | 
+| The header button links work.                                        | PASS          |
 
 ## Build
 
