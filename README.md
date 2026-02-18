@@ -129,27 +129,36 @@ These are some of the wireframes made for the project
 
 #### Mobile header (signed out)
 
- | FEATURE                                   | PASS OR FAIL  |
+ | FEATURE                                   | RESULT        |
  |---------                                  |---------------|
- | Does the mobile header display correctly? | PASS          | 
- | Does the menu button work?                | PASS          | 
- | Do the links work?                        | PASS          |
+ | The mobile header displays correctly.     | PASS          | 
+ | The menu button works.                    | PASS          | 
+ | The links work.                           | PASS          |
 
  #### Mobile header (signed in)
  
-| FEATURE                                   | PASS OR FAIL  |
+| FEATURE                                   | RESULT        |
 |---------                                  |---------------|
-| Does the mobile header display correctly? | PASS          | 
-| Does the menu button work?                | PASS          | 
-| Do the links work?                        | PASS          |
+| The mobile header displays correctly.     | PASS          | 
+| The menu button works.                    | PASS          | 
+| The links work.                           | PASS          |
 
  #### Desktop header (signed out)
  
-| FEATURE                                                              | PASS OR FAIL  |
+| FEATURE                                                              | RESULT        |
 |---------                                                             |---------------|
 | The signed out version of the desktop header is displaying correctly.| PASS          | 
 | The header buttons work.                                             | PASS          | 
 | The header button links work.                                        | PASS          |
+
+ #### Desktop header (signed in)
+ 
+| FEATURE                                                              | RESULT        |
+|---------                                                             |---------------|
+| The signed in version of the desktop header is displaying correctly. | PASS          | 
+| The logo title is fine. The link works.                              | PASS          | 
+| The navigation links work.                                           | PASS          |
+| The buttons work.                                                    | PASS          |
 
 ## Build
 
