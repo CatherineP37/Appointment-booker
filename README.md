@@ -129,27 +129,25 @@ These are some of the wireframes made for the project
 
 #### Mobile header (signed out)
 
- Does the mobile header display correctly? | YES
+ | FEATURE                                 | PASS OR FAIL  |
+ |---------                                |---------------|
+
+ | Does the mobile header display correctly? | PASS        |
  
- Does the menu button work? | YES
+ | Does the menu button work?                | PASS        |
  
- Do the links work? | YES
+ | Do the links work?                         | PASS        |
 
  #### Mobile header (signed in)
  
-Does the mobile header display correctly? | YES
+ | FEATURE                                 | PASS OR FAIL  |
+ |---------                                |---------------|
+
+ | Does the mobile header display correctly? | PASS        |
  
-Does the menu button work? | YES
+ | Does the menu button work?                | PASS        |
  
-Do the links work? | YES
-
-
-
-
-
-
-
-
+ | Do the links work?                         | PASS        |
 
 ## Build
 
