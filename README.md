@@ -129,11 +129,12 @@ These are some of the wireframes made for the project
 
 #### Mobile header (signed out)
 
- | FEATURE                                   | RESULT        |
- |---------                                  |---------------|
- | The mobile header displays correctly.     | PASS          | 
- | The menu button works.                    | PASS          | 
- | The links work.                           | PASS          |
+ | FEATURE                                   | EXPECTED RESULT                            | ACTUAL RESULT                    | RESULT  |
+ |---------                                  |---------------                             | --------------                   | ------- |
+ | Logo link                                 | The link takes the user to the home page.  | The link works as expected.      | PASS    | 
+                                                                                                                      
+
+
 
  #### Mobile header (signed in)
  
