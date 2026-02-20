@@ -129,10 +129,10 @@ These are some of the wireframes made for the project
 
 #### Mobile header (signed out)
 
- | FEATURE                                   | EXPECTED RESULT                            | ACTUAL RESULT                                                  | RESULT  |
- |---------                                  |---------------                             | --------------                                                 | ------- |
- | Logo link                                 | The link takes the user to the home page.  | The link works as expected.                                    | PASS    | 
- | Mobile menu button                        | The mobile menu button shows the mobile menu when clicked. | The mobile menu button works as expected.      | PASS    |                                                                                                                      
+ | FEATURE                |TEST PROCEDURE | EXPECTED RESULT                             | ACTUAL RESULT                                                  | RESULT  |
+ |---------               |-----------    |--------------                               | --------------                                                 | ------- |
+ | Logo link              |  The logo link was clicked.| The link takes the user to the home page.  | The link works as expected.                         | PASS    | 
+ | Mobile menu button     | The mobile menu button was pressed |  The mobile menu button shows the mobile menu when clicked. | The mobile menu button works as expected.| PASS |                                                                                                                      
 
 
 
