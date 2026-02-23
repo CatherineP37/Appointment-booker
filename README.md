@@ -14,8 +14,6 @@ This is a medical appointment booking project built with HTML, CSS, JavaScript, 
 - [Wireframes](#wireframes)
 - [Features](#features)
 - [Testing](#testing)
-- [Build](#build)
-- [Deployment](#deployment)
 - [Credits](#credits)
 
 ## Introduction
@@ -192,9 +190,13 @@ These are some of the wireframes made for the project
 | Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
 |"Update your password" button| The button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should update the patient's password and take them to a success page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button should update the patient's password and take them to a success page. If the form inputs didn't have valid data entered into them then an error message should appear. | PASS |
 
-## Build
+#### Account details
 
-## Deployment
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+| :--------            | :----------           | :----------                               | :-----------------                |:--------|
+| "Edit your account details" button  | The button was pressed. | The button should lead to the page for editing account details.  |The button leads to the page for editing account details. | PASS |
+| "Change your password" button  | The button was pressed. | The button should lead to the page for editing a password.  |The button leads to the page for editing a password. | PASS |
+| "Delete your account" button  | The button was pressed. | Pressing the button should delete the account.  | Pressing the button should delete the account. | PASS |
 
 ## Credits
 
