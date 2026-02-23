@@ -167,6 +167,13 @@ These are some of the wireframes made for the project
 |"Book an appointment" button|The "Book an appointment" button was pressed.|The "Book an appointment" button should lead to the page with the list of available appointments.|The "Book an appointment" button leads to the page with the list of available appointments.| PASS |
 |"Your upcoming appointments" button |The "Your upcoming appointments" button was pressed.|The "Your upcoming appointments" button should lead to the page with the patient's upcoming appointments.|The "Your upcoming appointments" button leads to the page with the patient's upcoming appointments.| PASS |
 
+#### Registration form
+
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+|--------            |----------                 |----------                               |-----------------                     |--------|
+| Form input       | Words were typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow text to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow text to be typed in them. | PASS |
+|Form button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should create an account for the user and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button creates an account for the user and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appears.| PASS |
+
 ## Build
 
 ## Deployment
