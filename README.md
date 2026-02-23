@@ -196,7 +196,7 @@ These are some of the wireframes made for the project
 | :--------            | :----------           | :----------                               | :-----------------                |:--------|
 | "Edit your account details" button  | The button was pressed. | The button should lead to the page for editing account details.  |The button leads to the page for editing account details. | PASS |
 | "Change your password" button  | The button was pressed. | The button should lead to the page for editing a password.  |The button leads to the page for editing a password. | PASS |
-| "Delete your account" button  | The button was pressed. | Pressing the button should delete the account.  | Pressing the button should delete the account. | PASS |
+| "Delete your account" button  | The button was pressed. | Pressing the button should lead to the page for the patient to confirm whether or not they want to delete their account.  | Pressing the button leads to the page for the patient to confirm whether or not they want to delete their account.   | PASS |
 
 #### Editing account details
 
