@@ -172,7 +172,14 @@ These are some of the wireframes made for the project
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
 |--------            |----------                 |----------                               |-----------------                     |--------|
 | Form input       | Words were typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow text to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow text to be typed in them. | PASS |
-|Form button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should create an account for the user and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button creates an account for the user and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appears.| PASS |
+|"Sign up for an account" form button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should create an account for the patient and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button creates an account for the patient and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appears.| PASS |
+
+#### Sign in form
+
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+|--------            |----------                 |----------                               |-----------------                     |--------|
+| Form input       | Words were typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow text to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow text to be typed in them. | PASS |
+|"Sign in to your account" button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should sign the patient into their and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button signs the patient into their account and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appears.| PASS |
 
 ## Build
 
