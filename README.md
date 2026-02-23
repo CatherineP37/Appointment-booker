@@ -129,37 +129,13 @@ These are some of the wireframes made for the project
 
 #### Mobile header (signed out)
 
- | FEATURE                |TEST PROCEDURE | EXPECTED RESULT                             | ACTUAL RESULT                                                  | RESULT  |
- |---------               |-----------    |--------------                               | --------------                                                 | ------- |
- | Logo link              |  The logo link was clicked.| The link takes the user to the home page.  | The link works as expected.                         | PASS    | 
- | Mobile menu button     | The mobile menu button was pressed |  The mobile menu button shows the mobile menu when clicked. | The mobile menu button works as expected.| PASS |                                                                                                                      
-
-
-
- #### Mobile header (signed in)
+ | FEATURE                |TEST PROCEDURE                      | EXPECTED OUTCOME                                        | ACTUAL OUTCOME                                                 | RESULT  |
+ |---------               |-----------                         |--------------                                            | --------------                                                 | ------- |
+ | Logo link              |  The logo link was selected.       | The logo link should take the patient to the home page.  |  The logo link takes the patient to the home page.             | PASS    | 
+ | Mobile menu button     | The mobile menu button was pressed | Pressing the mobile menu button should open the mobile menu. Pressing the mobile menu button again should close the menu. |  The mobile menu is opened when the mobile menu button is pressed. If the mobile menu button is pressed while the mobile menu is open the mobile menu closes.           | PASS |
  
-| FEATURE                                   | RESULT        |
-|---------                                  |---------------|
-| The mobile header displays correctly.     | PASS          | 
-| The menu button works.                    | PASS          | 
-| The links work.                           | PASS          |
 
- #### Desktop header (signed out)
- 
-| FEATURE                                                              | RESULT        |
-|---------                                                             |---------------|
-| The signed out version of the desktop header is displaying correctly.| PASS          | 
-| The header buttons work.                                             | PASS          | 
-| The header button links work.                                        | PASS          |
 
- #### Desktop header (signed in)
- 
-| FEATURE                                                              | RESULT        |
-|---------                                                             |---------------|
-| The signed in version of the desktop header is displaying correctly. | PASS          | 
-| The logo title is fine. The link works.                              | PASS          | 
-| The navigation links work.                                           | PASS          |
-| The buttons work.                                                    | PASS          |
 
 ## Build
 
