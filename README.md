@@ -129,8 +129,8 @@ These are some of the wireframes made for the project
 
 #### Mobile header
 
- | FEATURE                |TEST PROCEDURE                      | EXPECTED OUTCOME                                        | ACTUAL OUTCOME                                                 | RESULT  |
- |---------               |-----------                         |--------------                                            | --------------                                                 | ------- |
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+| :--------            | :----------           | :----------                               | :-----------------                |:--------|
  | Logo link              |  The logo link was selected.       | The logo link should take the patient to the home page.  |  The logo link takes the patient to the home page.             | PASS    | 
  | Mobile menu button     | The mobile menu button was pressed | Pressing the mobile menu button should open the mobile menu. Pressing the mobile menu button again should close the menu. |  The mobile menu is opened when the mobile menu button is pressed. If the mobile menu button is pressed while the mobile menu is open the mobile menu closes.           | PASS |
  |"Sign up" link|The "Sign up" link was selected.|The "Sign up" link should lead to the page for registering for an account. |The "Sign up" link leads to the page for registering for an account.|PASS| 
@@ -143,7 +143,7 @@ These are some of the wireframes made for the project
 #### Desktop header
 
  | FEATURE                |TEST PROCEDURE                      | EXPECTED OUTCOME      | ACTUAL OUTCOME              | RESULT  |
- |---------               |-----------                         |--------------                                            | --------------                                                 | ------- |
+ |:---------               |:-----------                         |:------------ | :--------------                 |:------- |
  | Logo link              |  The logo link was selected.       | The logo link should take the patient to the home page.  |  The logo link takes the patient to the home page.             | PASS    |
  |"Sign up" link|The "Sign up" link was selected.|The "Sign up" link should lead to the page for registering for an account. |The "Sign up" link leads to the page for registering for an account.|PASS| 
  |"Sign in" link|The “Sign in” link was selected.|The "Sign in" link should lead to the login page.|The “Sign in" link leads to the login page.| PASS |
@@ -155,13 +155,13 @@ These are some of the wireframes made for the project
 #### Message
 
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
-|--------            |----------                 |----------                               |-----------------                     |--------|
+| :--------            | :----------           | :----------                               | :-----------------                |:--------|
 | Close button       | The close button was pressed. |The close button should close the message. |The close button closed the message.| PASS |
  
  #### Introduction
 
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
-|--------            |----------                 |----------                               |-----------------                     |--------|
+| : --------          |: ----------               |: ----------                             |: -----------------                    |: --------|
 | "Sign in to your account" button       | The "Sign in to your account" button was pressed. |The "Sign in to your account" button should lead to the login page. |The "Sign in to your account" button leads to the login page.| PASS 
 | "Sign up for an account" button       | The "Sign up for an account" button was pressed. |The "Sign up for an account" button leads to the page for registering for an account. |The "Sign up for an account" button leads to the page for registering for an account.| PASS |
 |"Book an appointment" button|The "Book an appointment" button was pressed.|The "Book an appointment" button should lead to the page with the list of available appointments.|The "Book an appointment" button leads to the page with the list of available appointments.| PASS |
@@ -170,21 +170,21 @@ These are some of the wireframes made for the project
 #### Registration form
 
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
-|--------            |----------                 |----------                               |-----------------                     |--------|
+|:--------            |:----------             |:----------                             |:-----------------                    |:--------|
 | Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
 |"Sign up for an account" form button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should create an account for the patient and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button creates an account for the patient and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appears.| PASS |
 
 #### Sign in form
 
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
-|--------            |----------                 |----------                               |-----------------                     |--------|
+|:--------            |:----------             |:----------                            |:-----------------                   |:--------|
 | Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
 |"Sign in to your account" form button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should sign the patient into their and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button signs the patient into their account and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appears.| PASS |
 
 #### Password reset
 
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
-|--------            |----------                 |----------                               |-----------------                     |--------|
+|:--------           |:----------                 |:----------                             |:-----------------                    |:--------|
 | "Forgot your password?" link       | The link was pressed. |The link should lead to the page for entering an email for the password reset. |The link leads to the page for entering an email for the password reset.| PASS |
 | Form input for entering an email address for the password reset.| Content was typed into the form input. | The form input should get a dark coloured border when selected. The form input should allow text to be typed in it.  | The form input gets a dark coloured border when selected. The form input allows content to be typed in them. | PASS |
 |"Enter your email address" form button| The form button was pressed when the form input had valid data in it and when it didn't. | If the form input has valid data entered into it and the email address is found on the system then pressing the form button should send an email to the patient. If the form input doesn't have valid data entered into it then an error message should appear. |If the form input has valid data entered into it and the email address is found on the system then pressing the form button sends an email to the patient. If the form input doesn't have valid data entered into it then an error message appears.| PASS|
