@@ -161,7 +161,7 @@ These are some of the wireframes made for the project
  #### Introduction
 
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
-| : --------          |: ----------               |: ----------                             |: -----------------                    |: --------|
+|:--------            |:----------             |:----------                             |:-----------------                    |:--------|
 | "Sign in to your account" button       | The "Sign in to your account" button was pressed. |The "Sign in to your account" button should lead to the login page. |The "Sign in to your account" button leads to the login page.| PASS 
 | "Sign up for an account" button       | The "Sign up for an account" button was pressed. |The "Sign up for an account" button leads to the page for registering for an account. |The "Sign up for an account" button leads to the page for registering for an account.| PASS |
 |"Book an appointment" button|The "Book an appointment" button was pressed.|The "Book an appointment" button should lead to the page with the list of available appointments.|The "Book an appointment" button leads to the page with the list of available appointments.| PASS |
