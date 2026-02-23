@@ -137,6 +137,19 @@ These are some of the wireframes made for the project
  |"Sign in" link|The “Sign in” link was selected.|The "Sign in" link should lead to the login page.|The “Sign in" link leads to the login page.| PASS |
  |"Your account" link|The "Your account" link was selected.|The "Your account" link should lead to the account page.|The "Your account" link leads to the account page.| PASS |
  |"Your appointments" link|The "Your appointments" link was selected.|The "Your appointments" link should lead to the page with the patient's upcoming appointments.|The "Your appointments" link leads to the page with the patient's upcoming appointments.| PASS |
+ |"Sign out" button |The "Sign out" link was button.|The "Sign out" button should sign the patient out of their account.|The "Sign out" button signs the patient out of their account.| PASS |
+ |"Book appointment" link |The "Book appointment" link was selected.|The "Book appointment" link should lead to the page with the list of available appointments.|The "Book appointment" link leads to the page with the list of available appointments.| PASS |
+
+#### Desktop header
+
+ | FEATURE                |TEST PROCEDURE                      | EXPECTED OUTCOME                                        | ACTUAL OUTCOME                                                 | RESULT  |
+ |---------               |-----------                         |--------------                                            | --------------                                                 | ------- |
+ | Logo link              |  The logo link was selected.       | The logo link should take the patient to the home page.  |  The logo link takes the patient to the home page.             | PASS    | 
+ | Mobile menu button     | The mobile menu button was pressed | Pressing the mobile menu button should open the mobile menu. Pressing the mobile menu button again should close the menu. |  The mobile menu is opened when the mobile menu button is pressed. If the mobile menu button is pressed while the mobile menu is open the mobile menu closes.           | PASS |
+ |"Sign up" link|The "Sign up" link was selected.|The "Sign up" link should lead to the page for registering for an account. |The "Sign up" link leads to the page for registering for an account.|PASS| 
+ |"Sign in" link|The “Sign in” link was selected.|The "Sign in" link should lead to the login page.|The “Sign in" link leads to the login page.| PASS |
+ |"Your account" link|The "Your account" link was selected.|The "Your account" link should lead to the account page.|The "Your account" link leads to the account page.| PASS |
+ |"Your appointments" link|The "Your appointments" link was selected.|The "Your appointments" link should lead to the page with the patient's upcoming appointments.|The "Your appointments" link leads to the page with the patient's upcoming appointments.| PASS |
  |"Sign out" button|The "Sign out" button was pressed.|The "Sign out" button should sign the patient out of their account.|The "Sign out" button signs the patient out of their account.| PASS |
  |"Book appointment" button|The "Book appointment" button was pressed.|The "Book appointment" button should lead to the page with the list of available appointments.|The "Book appointment" button leads to the page with the list of available appointments.| PASS |
  
