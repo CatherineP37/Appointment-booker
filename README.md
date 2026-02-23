@@ -171,7 +171,7 @@ These are some of the wireframes made for the project
 
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
 |:--------            |:----------             |:----------                             |:-----------------                    |:--------|
-| Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
+| Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
 |"Sign up for an account" form button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should create an account for the patient and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button creates an account for the patient and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appears.| PASS |
 
 #### Sign in form
@@ -185,9 +185,12 @@ These are some of the wireframes made for the project
 
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
 |:--------           |:----------                 |:----------                             |:-----------------                    |:--------|
-| "Forgot your password?" link       | The link was pressed. |The link should lead to the page for entering an email for the password reset. |The link leads to the page for entering an email for the password reset.| PASS |
+| "Forgot your password?" link       | The link was selected. |The link should lead to the page for entering an email for the password reset. |The link leads to the page for entering an email for the password reset.| PASS |
 | Form input for entering an email address for the password reset.| Content was typed into the form input. | The form input should get a dark coloured border when selected. The form input should allow text to be typed in it.  | The form input gets a dark coloured border when selected. The form input allows content to be typed in them. | PASS |
 |"Enter your email address" form button| The form button was pressed when the form input had valid data in it and when it didn't. | If the form input has valid data entered into it and the email address is found on the system then pressing the form button should send an email to the patient. If the form input doesn't have valid data entered into it then an error message should appear. |If the form input has valid data entered into it and the email address is found on the system then pressing the form button sends an email to the patient. If the form input doesn't have valid data entered into it then an error message appears.| PASS|
+| link in email       | The link was selected. |The link should lead to the page with the form for changing a password. |The link leads to the page with the form for changing a password.| PASS |
+| Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
+|"Update your password" button| The button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should update the patient's password and take them to a success page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button should update the patient's password and take them to a success page. If the form inputs didn't have valid data entered into them then an error message should appear. | PASS |
 
 ## Build
 
