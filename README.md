@@ -177,7 +177,7 @@ These are some of the wireframes made for the project
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
 |:--------            |:----------             |:----------                            |:-----------------                   |:--------|
 | Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
-|"Sign in to your account" form button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should sign the patient into their and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button signs the patient into their account and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appears.| PASS |
+|"Sign in to your account" form button| The form button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should sign the patient into their and take them to the home page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button signs the patient into their account and takes them to the home page. If the form inputs didn't have valid data entered into them then an error message appeared.| PASS |
 
 #### Password reset
 
@@ -188,7 +188,7 @@ These are some of the wireframes made for the project
 |"Enter your email address" form button| The form button was pressed when the form input had valid data in it and when it didn't. | If the form input has valid data entered into it and the email address is found on the system then pressing the form button should send an email to the patient. If the form input doesn't have valid data entered into it then an error message should appear. |If the form input has valid data entered into it and the email address is found on the system then pressing the form button sends an email to the patient. If the form input doesn't have valid data entered into it then an error message appears.| PASS|
 | link in email       | The link was selected. |The link should lead to the page with the form for changing a password. |The link leads to the page with the form for changing a password.| PASS |
 | Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
-|"Update your password" button| The button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should update the patient's password and take them to a success page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button should update the patient's password and take them to a success page. If the form inputs didn't have valid data entered into them then an error message should appear. | PASS |
+|"Update your password" button| The button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should update the patient's password and take them to a success page. If the form inputs didn't have valid data entered into them then an error message should appear. |If the form inputs have valid data entered into them then pressing the form button should update the patient's password and take them to a success page. If the form inputs didn't have valid data entered into them then an error message appeared. | PASS |
 
 #### Account details
 
@@ -197,6 +197,13 @@ These are some of the wireframes made for the project
 | "Edit your account details" button  | The button was pressed. | The button should lead to the page for editing account details.  |The button leads to the page for editing account details. | PASS |
 | "Change your password" button  | The button was pressed. | The button should lead to the page for editing a password.  |The button leads to the page for editing a password. | PASS |
 | "Delete your account" button  | The button was pressed. | Pressing the button should delete the account.  | Pressing the button should delete the account. | PASS |
+
+#### Editing account details
+
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+| :--------            | :----------           | :----------                               | :-----------------                |:--------|
+| Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
+|"Edit your account" button| The button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should update the patient's account details. If the form inputs didn't have valid data entered into them then an error message should appear. | If the form inputs have valid data entered into them then pressing the form button updated the patient's account details. If the form inputs didn't have valid data entered into them then an error message appeared.  | PASS |
 
 ## Credits
 
