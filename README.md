@@ -142,7 +142,7 @@ These are some of the wireframes made for the project
 
 #### Desktop header
 
- | FEATURE                |TEST PROCEDURE                      | EXPECTED OUTCOME                                        | ACTUAL OUTCOME                                                 | RESULT  |
+ | FEATURE                |TEST PROCEDURE                      | EXPECTED OUTCOME      | ACTUAL OUTCOME              | RESULT  |
  |---------               |-----------                         |--------------                                            | --------------                                                 | ------- |
  | Logo link              |  The logo link was selected.       | The logo link should take the patient to the home page.  |  The logo link takes the patient to the home page.             | PASS    |
  |"Sign up" link|The "Sign up" link was selected.|The "Sign up" link should lead to the page for registering for an account. |The "Sign up" link leads to the page for registering for an account.|PASS| 
@@ -151,6 +151,12 @@ These are some of the wireframes made for the project
  |"Your appointments" link|The "Your appointments" link was selected.|The "Your appointments" link should lead to the page with the patient's upcoming appointments.|The "Your appointments" link leads to the page with the patient's upcoming appointments.| PASS |
  |"Sign out" button|The "Sign out" button was pressed.|The "Sign out" button should sign the patient out of their account.|The "Sign out" button signs the patient out of their account.| PASS |
  |"Book appointment" button|The "Book appointment" button was pressed.|The "Book appointment" button should lead to the page with the list of available appointments.|The "Book appointment" button leads to the page with the list of available appointments.| PASS |
+
+#### Message
+
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+|--------            |----------                 |----------                               |-----------------                     |--------|
+| Close button       | The close button was pressed. |The close button should close the message. |The close button closed the message.| PASS |
  
  
  
