@@ -235,6 +235,13 @@ These are some of the wireframes made for the project
 |List of patient's upcoming appointments.|The list was checked.  |The list should only show the patient's upcoming appointments. |The list only shows the patient's upcoming appointments.| PASS |
 |"Cancel appointment" button|The button was pressed.|The button should lead to a page that asks if the patient is sure they want to cancel their appointment.|The button leads to a page that asks if the patient is sure they want to cancel their appointment.|PASS|
 
+#### Cancelling an appointment
+
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+| :--------            | :----------           | :----------                               | :-----------------                |:--------|
+|"Cancel appointment" button|The button was pressed. |Pressing the button should cancel the appointment. |Pressing the button cancels the appointment.| PASS |
+|"Don't cancel appointment" button|The button was pressed.|Pressing the button should lead to the page with the patient's upcoming appointments.|Pressing the button leads to the page with the patient's upcoming appointments.|PASS|
+
 ## Credits
 
 Font Awesome
