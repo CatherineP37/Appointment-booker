@@ -10,7 +10,7 @@
                 <div class="circle">
                     <i class="fa-solid fa-check"></i>                    
                 </div>
-                <h2>Booking successful! thanks</h2>                              
+                <h2>Appointment cancellation successful</h2>                              
             </div>
             <h3>You have cancelled the following appointment:</h3>           
             <div class="small-container">
@@ -21,14 +21,14 @@
                                 <h4>Date</h4>
                                 <i class="fa-regular fa-calendar"></i>
                             </div>
-                            <p>{{ appointment.date }}</p>
+                            <p>{{ appointment.date|date:"d.m.Y" }}</p>
                         </div>
                         <div class="time">
                             <div class="word-and-image">
                                 <h4>Time</h4>
                                 <i class="fa-regular fa-clock"></i>
                             </div>
-                            <p>{{ appointment.time }}</p>
+                            <p>{{ appointment.time|time:"H:i" }}</p>
                         </div>
                     </div>                           
                 </div>                           
