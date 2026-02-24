@@ -205,6 +205,13 @@ These are some of the wireframes made for the project
 | Form input       | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them.  | Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them. | PASS |
 |"Edit your account" button| The button was pressed when the form inputs had valid data in them and when they didn't. | If the form inputs have valid data entered into them then pressing the form button should update the patient's account details. If the form inputs didn't have valid data entered into them then an error message should appear. | If the form inputs have valid data entered into them then pressing the form button updated the patient's account details. If the form inputs didn't have valid data entered into them then an error message appeared.  | PASS |
 
+#### Editing a password
+
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+| :--------            | :----------           | :----------                               | :-----------------                |:--------|
+|  Form input     | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them.|Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them.| PASS |
+|"Update your password" button|The button was pressed when the form inputs had valid data in them and when they didn't.|If the form inputs have valid data entered into them then pressing the form button should update the patient's password. If the form inputs didn't have valid data entered into them then an error message should appear.|If the form inputs have valid data entered into them then pressing the form button updates the patient's password. If the form inputs didn't have valid data entered into them then an error message appeared.|PASS|
+
 ## Credits
 
 Font Awesome
