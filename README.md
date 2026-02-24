@@ -210,7 +210,14 @@ These are some of the wireframes made for the project
 | FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
 | :--------            | :----------           | :----------                               | :-----------------                |:--------|
 |  Form input     | Content was typed into the form inputs. | Form inputs should get a dark coloured border when selected. Form inputs should allow content to be typed in them.|Form inputs get a dark coloured border when selected. Form inputs allow content to be typed in them.| PASS |
-|"Update your password" button|The button was pressed when the form inputs had valid data in them and when they didn't.|If the form inputs have valid data entered into them then pressing the form button should update the patient's password. If the form inputs didn't have valid data entered into them then an error message should appear.|If the form inputs have valid data entered into them then pressing the form button updates the patient's password. If the form inputs didn't have valid data entered into them then an error message appeared.|PASS|
+|"Update your password" button|The button was pressed when the form inputs had valid data in them and when they didn't.|If the form inputs have valid data entered into them then pressing the form button should update the patient's password. If the form inputs didn't have valid data entered into#### Message
+
+#### Deleting an account
+
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+| :--------            | :----------           | :----------                               | :-----------------                |:--------|
+|"No, don't delete account" button | The button was pressed. |Pressing the button should lead to the account details page. |Pressing the button leads to the account details page.| PASS |
+|"Delete account" button|The button was pressed.|Pressing the button should delete the account.|Pressing the button deletes the account.|PASS|
 
 ## Credits
 
