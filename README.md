@@ -219,6 +219,15 @@ These are some of the wireframes made for the project
 |"No, don't delete account" button | The button was pressed. |Pressing the button should lead to the account details page. |Pressing the button leads to the account details page.| PASS |
 |"Delete account" button|The button was pressed.|Pressing the button should delete the account.|Pressing the button deletes the account.|PASS|
 
+#### Booking an appointment
+
+| FEATURE            |TEST PROCEDURE             | EXPECTED OUTCOME                        | ACTUAL OUTCOME                       | RESULT  |
+| :--------            | :----------           | :----------                               | :-----------------                |:--------|
+| List of available appointments.| The list of available appointments was checked. |The list should only show appointments that are in the future and not already booked. |The list shows only appointments that are in the future and not already booked.| PASS |
+|"Select appointment" button|The button was pressed.|Pressing the button should lead to a page showing the appointment that the patient has selected.|Pressing the button leads to a page showing the appointment that the patient has selected.|PASS|
+|"Book appointment" button|The button was pressed.|Pressing the button should book an appointment.|Pressing the button books an appointment.|PASS|
+|"Cancel" button|The button was pressed.|Pressing the button should lead to the page with the list of available appointments.|Pressing the button leads to the page with the list of available appointments.|PASS|
+
 ## Credits
 
 Font Awesome
