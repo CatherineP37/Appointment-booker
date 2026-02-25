@@ -13,7 +13,6 @@ This is a medical appointment booking project built with HTML, CSS, JavaScript, 
 - [Database schema](#database-schema)
 - [Wireframes](#wireframes)
 - [Features](#features)
-- [Testing](#testing)
 - [Credits](#credits)
 
 ## Introduction
@@ -120,10 +119,8 @@ These are some of the wireframes made for the project
 - The patient gets a booking confirmation once they have booked an appointment
 - Ability for the patient to view their upcoming appointments
 - Ability for the patient to cancel an appointment
-  
-## Testing
 
-### Usability testing results
+### Usability testing of features
 
 #### Mobile header
 
