@@ -77,15 +77,18 @@ Epic - patient account
 
 Epic - booking an appointment online
 
-- As a patient I want to book an appointment easily online
-- As a patient I want to see what appointments are available
-- As a patient I don't want to book an appointment that someone else has booked
+| USER STORY                                                                                   |RESULT             |
+|:---------                                                                                    |:-----------       |           
+| As a patient I want to be able to book an appointment easily online.                         |PASS               |
+| As a patient I want to able to see what appointments are available.                          |PASS               |
+| As a patient I don't want to book an appointment that someone else has booked.               |PASS               |
 
 Epic - managing my appointments
 
-- As a patient I want the option to see the appointments that I've booked
-- As a patient I want the option of updating my booking
-- As a patient I want the option of cancelling my booking
+| USER STORY                                                                                   |RESULT             |
+|:---------                                                                                    |:-----------       |           
+| As a patient I want to be able to see what upcoming appointments I've booked.                |PASS               |
+| As a patient I want to able to cancel an appointment that I've booked.                       |PASS               |
 
 ## Sitemap
 
