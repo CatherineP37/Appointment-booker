@@ -65,13 +65,16 @@ For the qualitative research, I interviewed people who had experience with booki
 
 Epic - patient account
 
-- As a patient I want to set up an account so that I can easily book appointments online
-- As a patient I want to be able to sign in and out of my account easily
-- As a patient I want to be able to edit my account details 
-- As a patient I want to be able to edit my password
-- As a patient I want to be able to delete my account
-- As a patient I want to be able to sign in even if I forget my password  
-  
+| USER STORY                                                                                   |RESULT             |
+|:---------                                                                                    |:-----------       |           
+| As a patient I want to set up an account so that I can easily book appointments online.      |PASS               |
+| As a patient I want to able to sign in and out of my account easily.                         |PASS               |
+| As a patient I want to able to edit my account details.                                      |PASS               |
+| As a patient I want to able to edit my password.                                             |PASS               |
+| As a patient I want to able to sign in and out of my account easily.                         |PASS               |
+| As a patient I want to able to delete my account.                                            |PASS               |
+| As a patient I want to able to sign in even if I forget my password.                         |PASS               |
+
 Epic - booking an appointment online
 
 - As a patient I want to book an appointment easily online
