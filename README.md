@@ -63,7 +63,7 @@ For the qualitative research, I interviewed people who had experience with booki
 
 ## User stories
 
-Epic - patient account
+### Epic - patient account
 
 | USER STORY                                                                                   |RESULT             |
 |:---------                                                                                    |:-----------       |           
@@ -75,7 +75,7 @@ Epic - patient account
 | As a patient I want to able to delete my account.                                            |PASS               |
 | As a patient I want to able to sign in even if I forget my password.                         |PASS               |
 
-Epic - booking an appointment online
+### Epic - booking an appointment online
 
 | USER STORY                                                                                   |RESULT             |
 |:---------                                                                                    |:-----------       |           
@@ -83,7 +83,7 @@ Epic - booking an appointment online
 | As a patient I want to able to see what appointments are available.                          |PASS               |
 | As a patient I don't want to book an appointment that someone else has booked.               |PASS               |
 
-Epic - managing my appointments
+### Epic - managing my appointments
 
 | USER STORY                                                                                   |RESULT             |
 |:---------                                                                                    |:-----------       |           
