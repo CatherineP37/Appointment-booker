@@ -43,11 +43,15 @@ The app provides authentication, accounts and role based permissions. Patients c
 
 ### Purpose of research
 
-The purpose of the research was to understand why users use medical appointment booking apps and what they want to achieve while using these types of app and to understand their pain points when using these type of apps. It was also important to understand what kind of tasks patients carry out while using medical appointment booking apps.
+The purpose of the research was to understand why users use medical appointment booking apps and what they want to achieve while using these types of apps. It was also important to understand what kind of tasks patients carry out while using medical appointment booking apps and what their pain points are while using these types of apps.
+
+### Analysing similar apps
+
+Other medical appointment booking apps were examined and analysed. Usability tests were carried out on these apps to get a feel for what could be improved about the apps.
 
 ### User research methods
 
-For the qualitative research, I interviewed people who had experience with booking medical appointments online and for the quantitative research, I carried out a survey to find out about what users expect from a medical appointment booking website.
+For the qualitative research, I interviewed people who had experience with booking medical appointments online and for the quantitative research, I carried out a survey to find out about what users expect from a medical appointment booking app.
 
 ### Key insights from the user research
 
