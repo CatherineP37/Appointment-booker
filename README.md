@@ -20,6 +20,10 @@ This is a medical appointment booking project built with HTML, CSS, JavaScript, 
 This is a medical appointment booking app that helps to make it easy for patients to book appointments at a medical centre. The website helps to reduce the number of calls coming through to the medical centre. This means that the patients who do call in don't have to wait as long for their call to be answered.
 The app provides authentication, accounts and role based permissions. Patients can book appointments, view their upcoming appointments, cancel appointments, edit their account, edit their password and delete their account.
 
+## Film of appointment booker in use
+
+https://github.com/user-attachments/assets/a5d55555-372f-4f91-803f-a1dd20b83245
+
 ## Scope
 
 ### Accounts and authentication
