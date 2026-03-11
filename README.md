@@ -22,7 +22,7 @@ The app provides authentication, accounts and role based permissions. Patients c
 
 ## Film of appointment booker in use
 
-https://github.com/user-attachments/assets/a5d55555-372f-4f91-803f-a1dd20b83245
+https://github.com/user-attachments/assets/4082142a-70ab-45d2-9fab-bd3026c42ea1
 
 ## Scope
 
